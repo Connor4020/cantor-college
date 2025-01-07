@@ -1,0 +1,246 @@
+/* General reset and mobile-friendly tweaks */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.4; /* Reduced for smaller screens */
+    background-color: #7e7a7a;
+}
+
+header {
+    display: flex;
+    flex-direction: column; /* Stack items on small screens */
+    justify-content: center;
+    align-items: center;
+    background-color: #2b2929;
+    color: white;
+    padding: 15px 10px; /* Increased padding */
+    height: auto; /* Auto height for flexibility */
+}
+
+footer {
+    height: auto;
+    display: flex;
+    flex-direction: column; /* Stack items vertically */
+    align-items: center;
+    justify-content: center;
+    background-color: #2b2929;
+    padding: 10px 0;
+}
+
+footer a,
+footer p {
+    padding: 5px 10px; /* Adjust spacing */
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+    max-width: 40px; /* Reduced size for smaller screens */
+}
+
+.logo-box {
+    width: 25px;
+    height: 25px;
+    background-color: #F58220;
+}
+
+.logo-text {
+    font-size: 0px; /* Smaller font size */
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column; /* Stack navigation links */
+    align-items: center;
+    gap: 10px;
+}
+
+nav ul li {
+    margin: 0; /* Remove margins */
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 12px; /* Adjust font size */
+}
+
+.intro-text {
+    padding: 20px; /* Reduced padding */
+    text-align: center; /* Center align text */
+}
+
+.intro-text h1 {
+    font-size: 40px; /* Smaller font size */
+    font-weight: bold;
+    color: white;
+}
+
+.intro-text a {
+    text-decoration: underline;
+    padding-left: 5px;
+    color: white;
+}
+
+.hero {
+    display: flex;
+    flex-direction: column; /* Stack content */
+    align-items: center;
+    background-color: #7e7a7a;
+}
+
+.hero img {
+    max-width: 99%;
+}
+
+.img-shadow {
+    box-shadow: 1px 1px 5px #3b3a3a; /* Subtle shadow for smaller screens */
+}
+
+.content {
+    background-color: #A59D84;
+    color: white;
+    text-align: center;
+    padding: 20px; /* Adjust padding */
+}
+
+.content a {
+    text-decoration: none;
+    color: white;
+    font-size: 18px; /* Smaller font size */
+    font-weight: bold;
+    margin-bottom: 10px; /* Reduced margin */
+}
+
+hr {
+    border: none;
+    border-top: 1px solid white;
+    margin: 20px auto;
+    width: 90%; /* Narrower line */
+}
+
+.intro-title {
+    text-align: center;
+    font-size: 30px; /* Smaller font size */
+    padding: 15px;
+    color: white;
+}
+
+.image-then-text,
+.text-then-image {
+    flex-direction: column; /* Stack items */
+    gap: 10px; /* Reduced gap */
+    text-align: center; /* Center align text */
+}
+
+.image-then-text img,
+.text-then-image img {
+    max-width: 100%; /* Full width for images */
+    height: auto;
+}
+
+.text-right,
+.text-left {
+    flex: 1;
+    font-size: 14px; /* Smaller font size */
+    line-height: 1.4;
+    padding: 10px; /* Consistent padding */
+}
+
+.about-us-hero {
+    flex-direction: column; /* Stack content */
+    justify-content: center;
+    background-color: #3b3a3a;
+    text-align: center;
+}
+
+.about-us-hero img {
+    max-width: 100%;
+}
+
+.about-us-hero p {
+    padding: 20px; 
+}
+
+.facilities-description {
+    padding: 20px; 
+}
+
+.facilities-description p, .facilities-description ul {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.facilities-list {
+    flex-direction: column; 
+    align-items: center;
+}
+
+#facilities-list-second-list {
+    padding-left: 58px;
+}
+
+.computing-courses,
+.design-courses {
+    flex-direction: column; /* Stack content */
+    align-items: center;
+}
+
+.computing-courses div, .design-courses div {
+    padding: 20px;
+}
+
+.computing-courses img, .design-courses img {
+    max-width: 100%;
+}
+
+.campus-map {
+    flex-direction: column; /* Stack map elements */
+    align-items: center;
+    padding: 20px;
+}
+
+.news-section {
+    flex-direction: column; /* Stack news items */
+    text-align: center;
+    margin: 20px;
+}
+
+.news-section h3 {
+    font-size: 24px; /* Adjusted font size */
+}
+
+.div-one {
+    flex-direction: column; /* Stack sections */
+    align-items: center;
+    padding: 20px;
+}
+
+.college-details {
+    padding: 20px; /* Reduced padding */
+}
+
+.college-details h2,
+.college-details p {
+    font-size: 18px; /* Smaller font size */
+}
+
+.contact-details {
+    flex-direction: column; /* Stack contact items */
+    gap: 10px; /* Added gap */
+}
+
+/* Mobile-specific adjustments */
+@media only screen and (max-width: 768px) {
+    /* Add any additional tweaks here */
+}

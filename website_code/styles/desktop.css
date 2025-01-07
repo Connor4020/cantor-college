@@ -1,0 +1,306 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #7e7a7a;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2b2929;
+    color: white;
+    padding: 10px 20px;
+    height: 80px;
+}
+
+footer {
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #2b2929;
+}
+
+footer a, 
+footer p{
+    padding-right: 20px;
+    padding-left: 20px;
+    text-decoration: none;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-right: 10px;
+    max-width: 50px;
+}
+
+.logo-box {
+    width: 30px;
+    height: 30px;
+    background-color: #F58220; 
+}
+
+.logo-text {
+    font-size: 14px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+}
+
+nav ul li {
+    margin-left: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.intro-text {
+    padding: 40px;
+    flex-grow: 1;
+}
+
+.intro-text h1 {
+    font-size: 100px;
+    font-weight: bold;
+    color: white;
+}
+
+.intro-text a {
+    text-decoration: none;
+    padding-left: 10px;
+    color: white;
+    text-decoration: underline;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    background-color: #7e7a7a;
+}
+
+.img-shadow {
+    box-shadow: 1px 1px 10px #3b3a3a;
+}
+
+.content {
+    background-color: #A59D84;
+    color: white;
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.content a {
+    text-decoration: none;
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid white;
+    margin: 30px auto;
+    width: 80%;
+}
+
+.intro-title {
+    text-align: center;
+    font-size: 50px;
+    padding: 20px;
+    color: white;
+}
+
+.image-then-text,
+.text-then-image {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.image-then-text {
+    background-color: #3b3a3a;
+}
+
+.text-then-image {
+    background-color: #7e7a7a;
+}
+
+.image-then-text img,
+.text-then-image img {
+    max-width: 40%;
+    height: auto;
+    display: block;
+}
+
+.text-right,
+.text-left {
+    flex: 1;
+    font-size: 16px;
+    line-height: 1.6;
+    color: white;
+}
+
+.text-right {
+    padding-right: 50px;
+}
+
+.text-left {
+    padding-left: 50px;
+}
+
+#height-reducer {
+    height: 500px;
+}
+
+.about-us-hero {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #3b3a3a;
+    color: white;
+}
+
+.about-us-hero p {
+    padding: 50px;
+}
+
+.about-us-hero img {
+    max-width: 35%;
+}
+
+.facilities-description {
+    padding-bottom: 60px;
+    padding-top: 60px;
+}
+
+.facilities-description p, ul {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.facilities-list {
+    display: flex;
+}
+
+.facilities-list ul {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.computing-courses {
+    display: flex;
+    align-items: center;
+    background-color: #3b3a3a;
+}
+
+.design-courses {
+    display: flex;
+    align-items: center;
+}
+
+.computing-courses img,
+.design-courses img {
+    max-width: 40%;
+}
+
+.computing-courses p,
+.design-courses p {
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.campus-map {
+    display: flex;
+    align-items: center;
+    background-color: #3b3a3a;
+}
+
+.campus-map img {
+    max-width: 60%;
+}
+
+.campus-map div {
+    flex-grow: 1;
+}
+
+.campus-map h2 {
+    text-align: center;
+    font-size: 50px;
+}
+
+.news-section {
+    display: flex;
+    align-items: center;
+    margin: 40px;
+}
+
+.news-section h3 {
+    font-size: 40px;
+}
+
+.news-section p {
+    font-size: 20px;
+}
+
+.div-one {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.div-one div {
+    padding: 20px;
+    max-width: 400px;
+}
+
+.college-details {
+    background-color: #7e7a7a;
+    color: white;
+}
+
+.college-details h2,
+.college-details p {
+    text-align: center;
+}
+
+.college-details div a {
+    text-decoration: none;
+    text-decoration: underline;
+    color: white;
+    text-align: center;
+}
+
+.college-details h1 {
+    font-size: 40px;
+    text-align: center;
+    padding: 60px;
+    padding-left: 100px;
+}
+
+.college-details footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+}
+
+.contact-details {
+    display: flex;
+    justify-content: space-evenly;
+}
